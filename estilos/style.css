@@ -27,8 +27,8 @@ main {
     border-radius: 20px;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.548);
     background-color: white;
-    width: 280px;
-    height: 550px;
+    width: 250px;
+    height: 520px;
 }
 
  img {
@@ -42,19 +42,18 @@ main {
 h1 {
     font-size: 1.8em;
     text-align: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 p {
-    font-size: .7em;
+    font-size: .8em;
 }
 
 #formulario {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    padding: 14px;
+    padding: 5px;
 }
 
 #formulario > form {
@@ -65,7 +64,7 @@ p {
 
 #email, #senha {
     display: flex;
-    padding: 2px;
+    padding: 3px 3px 1px 0px;
     background-color: #5f2c82;
     border-radius: 5px;
 }
@@ -75,6 +74,7 @@ p {
     border-radius: 4px;
     border: 0px;
     padding: 0px 2px;
+    background-color: #94CFCD;
 }
 
 #email > span, #senha > span {
@@ -89,32 +89,31 @@ p {
 }
 
 .primary {
-    background-color: #49a09d;
+    background-color: #53AAA7;
     color: white;
 
 }
 
 .secondary {
-    border: 2px solid #49a09d;
-    color: #49a09d;
+    border: 1px solid #49a09d;
+    background-color: white;
+    color: #2D6462;
+    text-align: center;
+    text-decoration: none;
+}
 
+.secondary > span {
+    font-size: 1em;
+    padding-top: 10px;
 }
 
 .primary:hover {
-    background-color: #347774;
+    background-color: #2D6462;
     color: white;
-    transition: all 0.5s ease-in;
 }
 
 .secondary:hover {
-    background-color: #7baaa9;
-    border: 2px solid #49a09d;
-    color: white;
-    transition: all 0.5s ease-in;
-}
-
-@media (min-width: 500px) {
-    main {
-        display: none;
-    }
+    background-color: #6CD3CF;
+    border: 1px solid #49a09d;
+    color: #2D6462;
 }
